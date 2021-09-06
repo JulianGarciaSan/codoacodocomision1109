@@ -18,6 +18,11 @@ header{
     height: 290px;
     display: flex;
     justify-content: center; /*flex end*/
+    position: flex;
+    width: 80%;
+    top: 0px;
+    margin-left:10%;
+    margin-right: 10%;
 }
 
 header h1{
@@ -43,7 +48,7 @@ nav ol li{
 }
 
 article{
-   padding-top: 50px;
+   padding-top: 100px;
    background: linear-gradient(rgb(255, 99, 99), pink);
    width: 80%;
    margin-left: 10%;
@@ -70,3 +75,10 @@ nav ol li a:hover{
     color: black;
 }
 
+main{
+    /*width: 80%;*/
+}
+
+h4 font{
+    color: black !important;/* !important es algo que le da prioridad*/
+}

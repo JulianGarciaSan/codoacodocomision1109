@@ -1,0 +1,49 @@
+#justify{
+   /*
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    */
+}
+
+.primer{
+    /*
+    width: 150px;
+    height: 150px;
+    */
+    width: 30%;
+    background-color: lightgreen;
+    float: left;
+}
+
+.primer:after{
+    content: 'Este es despues del contenido!';/* esto impide copiar el contenido*/
+    color: white;
+    font-size: 20px;
+}
+
+.primer:before{
+    content: 'Este es antes del contenido!';/* esto impide copiar el contenido*/
+    color: white;
+    font-size: 20px;
+}
+
+.blue{
+    background-color: blue;
+}
+
+li{
+    display: inline;
+}
+span{
+    display: block;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+}
