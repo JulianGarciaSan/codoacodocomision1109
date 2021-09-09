@@ -1,0 +1,90 @@
+body{
+    background-color: lightgreen;
+}
+
+i{
+    color: orange;
+}
+
+@keyframes move {
+    from{top: 50px;
+         color: orange;
+    }
+
+    to{top: 250px;
+       color: palevioletred;
+    }
+}
+
+@keyframes fadeIn {
+    from{opacity: 0;
+    }
+
+    to{opacity: 1;
+    }
+}
+
+@keyframes otra {
+    0%{
+        color: brown;
+    }
+    
+    25%{
+        color: cadetblue;
+    }
+
+    50%{
+        color: chartreuse;
+    }
+}
+
+#flecha{
+    position: absolute;
+    animation-name: move, otra;
+    animation-duration: 5s, 5s;
+}
+/*
+#flecha:hover{
+    position: absolute;
+    animation-name: move, otra;
+    animation-duration: 5s, 5s;
+}
+*/
+
+#pelota{
+    position: relative;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+ul li:hover{
+    animation-name: menu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes menu {
+    0%{
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }    
+
+    100%{
+        padding: 20px;
+        background-color: white;
+        color: black;
+        box-shadow:  5px 5px 5px black;
+        border-radius: 40px;
+        font-size: 30px;
+    }
+}
