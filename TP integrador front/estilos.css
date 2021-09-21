@@ -1,0 +1,31 @@
+.navbar{
+    font-size: 18px;
+}
+
+.bg-img{
+    margin-top: -3%;
+    width: 100% ;
+    filter: brightness(50%);
+    zoom: 40%;
+    height: auto;
+    z-index: 0;
+    
+}
+
+.card{
+    font-size: 18px;
+    z-index: 1;
+    color: white;
+    border: none;
+    text-align: right;
+    margin-left: 750px;
+    margin-top: -490px;
+    width: 600px;
+    background-color: transparent;
+}
+
+#comprar-tickets{
+    background-color: green ;
+    border-color: green;
+    
+}
