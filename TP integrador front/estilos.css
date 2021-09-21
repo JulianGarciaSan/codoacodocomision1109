@@ -9,10 +9,10 @@
     zoom: 40%;
     height: auto;
     z-index: 0;
-    
+
 }
 
-.card{
+.first-part .card{
     font-size: 18px;
     z-index: 1;
     color: white;
@@ -27,5 +27,13 @@
 #comprar-tickets{
     background-color: green ;
     border-color: green;
+}
+
+.second-part .card{
+    border-color: grey;
+    margin-top: 0%;
+    font-size: 13.5px;
     
 }
+
+

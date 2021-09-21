@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./estilos.css">
     <title>TP Integrador Frontend</title>
 </head>
+
 <body>
 
     <div class="container-fluid">
@@ -25,52 +27,185 @@
 
             <div class="container-fluid col-7 me-0">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-light bg-dark">La conferencia</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Los oradores</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">El lugar y la fecha</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Conviértete en orador</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-success bg-dark ">Comprar tickets</a>
-                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light bg-dark">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Conviértete en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-success bg-dark ">Comprar tickets</a>
+                    </li>
 
                 </ul>
-            </div>            
-          </nav>
-        
+            </div>
+        </nav>
+
     </div>
 
-<div class="first-part">
-   
-      <div class="first-part ">
-        <div class="has-bg-img">
-            <img class="bg-img" src="./img/ba1.jpg" style="height: 800px;" alt="ba1">
+    <div class="first-part">
+
+        <div class="background-first-part ">
+            <div class="has-bg-img">
+                <img class="bg-img" src="./img/ba1.jpg" style="height: 800px;" alt="ba1">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title">Conf Ba As</h1>
+                <p class="card-text">Bs As llega por primera vez a la Argentina, un evento para compartir con nuestra
+                    comunidad el conocimiento
+                    y la experiencia de los expertos que estan creando el futuro de internet.
+                    Ven a conocer los miembros del primer evento, a otros estudiantes de Codo a Codo y
+                    los oradores del primernnicelque tenemos para ti. Te esperamos!</p>
+                <a href="#" id="qso" class=" me-2 btn btn btn-outline-light btn-lg">Quiero ser orador</a>
+                <a href="#" id="comprar-tickets" class="btn btn-lg  btn-success">Comprar tickets</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="second-part">
+
+        <div id="heder-second-part">
+            <h1 style="margin-top: 15%; color: black; text-align: center;font-size: 15px;">CONOCE A LOS</h1>
+            <h5 style="margin-top: 0%; color: black; text-align: center;font-size: 35px;"> ORADORES</h5>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card" style="width: 22rem; margin-left: 30%;">
+                    <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark">JavaScript</span>
+
+                        <span class="badge bg-primary">React</span>
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aperiam
+                            laborum recusandae, ea molestiae id hic eligendi. Nam voluptatibus officiis debitis, tempora
+                            quisquam atque earum cum reiciendis harum, in eius!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 22rem; margin-left: 15%; margin-right:-15%;">
+                    <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark">JavaScript</span>
+
+                        <span class="badge bg-primary">React</span>
+                        <h5 class="card-title">Bill Gates</h5>
+                        <p class="card-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste nesciunt
+                            quidem sequi dolor distinctio similique quod natus adipisci? Quam voluptas illo molestias ut
+                            laboriosam sapiente, impedit deleniti recusandae quasi possimus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 22rem; margin-left: 0%; margin-right: 30%;">
+                    <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge bg-secondary">Negocios</span>
+                        <span class="badge bg-danger">Startups</span>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+                            similique eum at nisi necessitatibus facilis, eligendi placeat nam vel commodi ea! Numquam
+                            dolore quae error unde fugiat corporis doloribus soluta!</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="card">
-        <div class="card-body">
-          <h1 class="card-title">Conf Ba As</h1>
-          <p class="card-text">Bs As llega por primera vez a la Argentina, un evento para compartir con nuestra comunidad el conocimiento
-              y la experiencia de los expertos que estan creando el futuro de internet. 
-              Ven a conocer los miembros del primer evento, a otros estudiantes de Codo a Codo y 
-              los oradores del primernnicelque tenemos para ti. Te esperamos!</p>
-          <a href="#" id="qso" class=" me-2 btn btn btn-outline-light btn-lg">Quiero ser orador</a>
-          <a href="#" id="comprar-tickets" class="btn btn-lg  btn-success">Comprar tickets</a>
-        </div>
-      </div>
-      
-</div>   
+    <div class="third-part">
 
-    
-    
-    
+        <div class="card mb-3" style="max-width: 100%; margin-top: 3%;">
+            <div class="row g-0">
+                <div class="col-md-6" style="max-width: 100%;">
+                    <img src="./img/honolulu.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-6" style="background-color: rgb(51, 51, 51);">
+                    <div class="card-body" style="max-width: 100%; color: white;">
+                        <h5 class="card-title" style="font-size: 26px;">Bs As - Octubre</h5>
+                        <p class="card-text" style="font-size: 13.5px;"> Buenos Aires es la provincia y localidad más
+                            grande del estado de Argentina, en los Estados Unidos. Honolulu es la
+                            más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu
+                            se refiere al área
+                            urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han
+                            formado una ciudad-
+                            condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+                    </div>
+                    <a href="#" id="CM" class=" me-2 btn btn btn-outline-light" style="margin-left: 2%;">Conoce más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fourth-part">
+
+        <div id="heder-second-part">
+            <h1 style="margin-top: 3%; color: black; text-align: center;font-size: 12px;">CONVIERTETE EN UN</h1>
+            <h5 style="margin-top: 0%; color: black; text-align: center;font-size: 33px;"> ORADOR</h5>
+            <p style="text-align: center;">Anótate como orador para dar una <abbr title="attribute">charla
+                    ignite.</abbr> Cuéntanos de que quieres hablar!</p>
+        </div>
+
+        <form>
+            <div class="form-row" style="display: flex; margin-left: 20%; margin-right: 20%;">
+                <div class="col" style="margin-right: 2.5%;">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col" style="margin-left:2.5%;">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+            </div>
+
+            <div class="col" style="margin-left: 20%; margin-right: 20%; margin-top: 1.5%;">
+                <input type="text" style="height: 100px; text-align:left; padding-bottom: 7%; font-size: 20px;"
+                    class="form-control" placeholder="Sobre qué quieres hablar?">
+            </div>
+            <p style="text-align: left; margin-left: 20%; margin-top: 0.5%;"><small style="font-size: 13px;" class="text-muted">Recuerda incluir un titulo para tu charla</small></p>
+
+            <button type="submit" style="margin-left: 20%; width: 60%; font-size: 20px; background-color: rgb(163, 240, 40); border-color: rgb(163, 240, 40);" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+
+    <nav class="col-12 navbar navbar-expand-lg navbar-dark bg-primary " style="margin-top: 1%;">
+       
+        <div style="text-align: center;" class="collapse navbar-collapse col-1" id="navbarNavDropdown">
+          <ul class="navbar-nav" style="margin-right: 4%; margin-left: 4%;">
+            <li class="nav-item active" style="margin-right: 4%; margin-left: 4%;">
+                <a class="nav-link" href="#">Preguntas Frecuentes </a>
+              </li>
+              <li class="nav-item active" style="margin-right: 4%; margin-left: 4%;">
+                <a class="nav-link" href="#">Contáctanos</a>
+              </li>
+              <li class="nav-item active" style="margin-right: 4%; margin-left: 4%;">
+                <a class="nav-link" href="#">Prensa</a>
+              </li>
+              <li class="nav-item active" style="margin-right: 4%; margin-left: 4%;">
+                <a class="nav-link" href="#">Conferencias</a>
+              </li>
+              <li class="nav-item active" style="margin-right: 4%; margin-left: 4%;">
+                <a class="nav-link" href="#">Terminos y condiciones</a>
+              </li>
+              <li class="nav-item active" style="margin-right: 4%; margin-left: 4%;">
+                <a class="nav-link" href="#">Privacidad</a>
+              </li>
+              <li class="nav-item active" style="margin-right: 4%; margin-left: 4%;">
+                <a class="nav-link" href="#">Estudiantes</a>
+              </li>
+            
+          </ul>
+        </div>
+      </nav>
 </body>
+
 </html>
