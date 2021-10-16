@@ -3,25 +3,24 @@
 }
 
 .bg-img{
-    margin-top: -3%;
-    width: 100% ;
-    filter: brightness(50%);
-    zoom: 40%;
-    height: auto;
+    filter:brightness(40%);
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    max-height: 800px;
+    margin-bottom: 1rem;
     z-index: 0;
 
 }
 
-.first-part .card{
-    font-size: 18px;
-    z-index: 1;
+.text-background{
+    position: absolute;
     color: white;
-    border: none;
+    font-size: 20px;
+    width: 35%;
     text-align: right;
-    margin-left: 750px;
-    margin-top: -490px;
-    width: 600px;
-    background-color: transparent;
+    margin-top: 16%;
+    margin-left: 60%;
 }
 
 #comprar-tickets{
@@ -29,10 +28,18 @@
     border-color: green;
 }
 
-.second-part .card{
-    border-color: grey;
-    margin-top: 0%;
-    font-size: 13.5px;
-    
+footer{
+    height: 80px;
+    margin-top: 1%;
+    background: linear-gradient(90deg, rgb(28, 56, 70) 0%, rgb(29, 82, 113) 100%);
+    text-align: center;
+    padding-top: 20px;
 }
 
+.footerItem{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
