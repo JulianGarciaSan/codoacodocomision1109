@@ -2,6 +2,10 @@
     font-size: 18px;
 }
 
+#jsform{
+    margin-top: 7%;
+}
+
 .bg-img{
     filter:brightness(40%);
     object-fit: none; /* Do not scale the image */
@@ -11,6 +15,16 @@
     margin-bottom: 1rem;
     z-index: 0;
 
+}
+
+#totalPagar{
+    position: relative;
+    left: 0.5%;
+    width: 101%;
+}
+
+#mail{
+    width: 101%;
 }
 
 .text-background{
@@ -27,7 +41,9 @@
     background-color: green ;
     border-color: green;
 }
-
+.fourth-part{
+    margin-bottom: 5%;
+}
 footer{
     height: 80px;
     margin-top: 1%;
